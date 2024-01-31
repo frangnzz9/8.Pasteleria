@@ -1,0 +1,110 @@
+.cabecera {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), #FFC5D4);
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin: 30px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.cajas {
+  height: 100%;
+  width: 100%;
+  gap: 30px;
+  padding: 40px;
+}
+
+#m-1 {
+  background-color: rgba(255, 255, 0, 0.75);
+}
+#m-1:hover {
+  background-color: yellow;
+}
+
+#m-2 {
+  background-color: rgba(0, 0, 255, 0.75);
+}
+#m-2:hover {
+  background-color: blue;
+}
+
+#m-3 {
+  background-color: rgba(255, 0, 0, 0.75);
+}
+#m-3:hover {
+  background-color: red;
+}
+
+#m-4 {
+  background-color: rgba(0, 128, 0, 0.75);
+}
+#m-4:hover {
+  background-color: green;
+}
+
+#m-5 {
+  background-color: rgba(137, 43, 226, 0.75);
+}
+#m-5:hover {
+  background-color: blueviolet;
+}
+
+footer {
+  gap: 25px;
+  background: linear-gradient(#FFC5D4, rgba(0, 0, 0, 0.8));
+  padding: 2rem;
+}
+footer h2 {
+  font-size: 1.5;
+}
+footer div {
+  gap: 25px;
+}
+footer div a {
+  color: white;
+}
+footer div a:hover {
+  color: rgb(202, 198, 198);
+}
+
+footer div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecera, .cajas, footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #FFC5D4;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  margin: 100px;
+  /* border: 1px solid black; */
+}/*# sourceMappingURL=style.css.map */

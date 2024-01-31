@@ -1,0 +1,48 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.cajas{
+    height: 100%;
+    width: 100%;
+    @extend %column;
+    gap: 30px;
+    padding: 40px;
+}
+
+#m-1{
+    background-color: rgba(255, 255, 0,0.75);
+    &:hover{
+        background-color: yellow;
+    }
+}
+#m-2{
+    background-color: rgba(0, 0, 255, 0.75);
+    &:hover{
+        background-color: blue;
+    }
+}
+#m-3{
+    background-color: rgba(255, 0, 0, 0.75);
+    &:hover{
+        background-color: red;
+    }
+}
+#m-4{
+    background-color: rgba(0, 128, 0, 0.75);
+    &:hover{
+        background-color:green;
+    }
+}
+#m-5{
+    background-color: rgba(137, 43, 226, 0.75);
+    &:hover{
+        background-color: blueviolet;
+    }
+}

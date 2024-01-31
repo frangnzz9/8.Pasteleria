@@ -1,0 +1,22 @@
+@import './componentes/header';
+@import './componentes/nav';
+@import './componentes/footer';
+
+@import './base/extend';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #FFC5D4;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 100px;
+    /* border: 1px solid black; */
+}

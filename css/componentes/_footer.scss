@@ -1,0 +1,21 @@
+footer{
+    @extend %column;
+    gap: 25px;
+    background: linear-gradient( #FFC5D4,rgba(0, 0, 0, 0.8));
+    padding: 2rem;
+    h2{
+        font-size: 1.5
+    }
+    div{
+        @extend %row;
+        gap: 25px;
+        a{
+            color: white;
+            &:hover{
+                color: rgb(202, 198, 198);
+            }
+        }
+    }
+}
+
+
