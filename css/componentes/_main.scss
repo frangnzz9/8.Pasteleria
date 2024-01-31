@@ -1,0 +1,59 @@
+.productos{
+    @extend %row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 10px;
+    img{
+        height: 300px;
+    }
+    p{
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+/* SOBRE NOSOTROS */
+.sobre-nos{
+    @extend %row;
+    padding: 75px;
+    gap: 25px;
+}
+
+/* UBICACIÓN */
+
+.ubi{
+    @extend %column;
+    padding: 75px;
+    gap: 25px;
+}
+
+@media (max-width:768px){
+    .ubi{
+        padding: 30px;
+        gap: 10px;
+        iframe{
+            width: 80%
+        }
+    }
+}
+
+
+/* CONTACTO */
+.contacto{
+    @extend %column;
+    padding: 75px;
+    gap: 25px;
+    form{
+        width: 50%;
+    }
+}
+
+@media (max-width:768px){
+    .contacto{
+        padding: 20px;
+        gap: 10px;
+        form{
+            width: 70%;
+        }
+    }
+}

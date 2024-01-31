@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .cabecera {
   background: linear-gradient(rgba(0, 0, 0, 0.8), #FFC5D4);
 }
@@ -60,6 +61,39 @@ img {
   background-color: blueviolet;
 }
 
+@media (max-width: 800px) {
+  .menu {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+  }
+}
+/* PRODUCTOS */
+.nav1 {
+  gap: 25px;
+  padding: 25px;
+}
+.nav1 a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav1 a:hover {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.a-esp {
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+}
 footer {
   gap: 25px;
   background: linear-gradient(#FFC5D4, rgba(0, 0, 0, 0.8));
@@ -67,6 +101,7 @@ footer {
 }
 footer h2 {
   font-size: 1.5;
+  text-align: center;
 }
 footer div {
   gap: 25px;
@@ -78,14 +113,66 @@ footer div a:hover {
   color: rgb(202, 198, 198);
 }
 
-footer div {
+.productos {
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 10px;
+}
+.productos img {
+  height: 300px;
+}
+.productos p {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* SOBRE NOSOTROS */
+.sobre-nos {
+  padding: 75px;
+  gap: 25px;
+}
+
+/* UBICACIÓN */
+.ubi {
+  padding: 75px;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .ubi {
+    padding: 30px;
+    gap: 10px;
+  }
+  .ubi iframe {
+    width: 80%;
+  }
+}
+/* CONTACTO */
+.contacto {
+  padding: 75px;
+  gap: 25px;
+}
+.contacto form {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    padding: 20px;
+    gap: 10px;
+  }
+  .contacto form {
+    width: 70%;
+  }
+}
+.nav1, footer div, .productos, .sobre-nos {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
 
-.cabecera, .cajas, footer {
+.cabecera, .cajas, footer, .ubi, .contacto {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -107,4 +194,10 @@ body {
   grid-template-rows: auto auto auto;
   margin: 100px;
   /* border: 1px solid black; */
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

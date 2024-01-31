@@ -1,6 +1,7 @@
 @import './componentes/header';
 @import './componentes/nav';
 @import './componentes/footer';
+@import './componentes/main';
 
 @import './base/extend';
 
@@ -19,4 +20,10 @@ body{
     grid-template-rows: auto auto auto;
     margin: 100px;
     /* border: 1px solid black; */
+}
+
+@media (max-width:800px){
+    body{
+        margin: 20px;
+    }
 }

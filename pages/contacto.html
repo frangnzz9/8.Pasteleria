@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Pasteleria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,37 +14,34 @@
 <body>
     
     <header class="cabecera">
-        <img src="./img/logo.png" alt="logo-pasteleria">
+        <img src="../img/logo.png" alt="logo-pasteleria">
     </header>
 
-    <nav class="menu">
-
-        <a href="./index.html" class="cajas" id="m-1">
-        <i class="fa-solid fa-house fa-2xl"></i>
-        <p>Inicio</p>
-        </a>
-
-        <a href="./pages/productos.html" class="cajas" id="m-2">
-            <i class="fa-solid fa-cookie-bite fa-2xl"></i>
-            <p>Productos</p>
-        </a>
-
-        <a href="./pages/quienes-somos.html" class="cajas" id="m-3">
-            <i class="fa-solid fa-circle-info fa-2xl"></i>
-            <p>Quienes somos</p>
-        </a>
-
-        <a href="#" class="cajas" id="m-4">
-            <i class="fa-solid fa-location-dot fa-2xl"></i>
-            <p>Ubicación</p> 
-        </a>
-
-        <a href="#" class="cajas" id="m-5">
-           <i class="fa-solid fa-user fa-2xl"></i>
-           <p>Contacto</p> 
-        </a>
-
+    <nav class="nav1">
+        <a href="../index.html">Inicio</a>
+        <a href="./productos.html">Productos</a>
+        <a href="./quienes-somos.html ">Quienes somos</a>
+        <a href="./ubicacion.html"> Ubicación</a>
+        <a href="./contacto.html" class="a-esp">Contacto</a>
     </nav>
+
+    <main class="contacto">
+        <h3>CONTACTO</h3>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Asunto</label>
+              <input type="text" class="form-control" id="exampleInputText" placeholder="Ej: 'Presupuesto, stock, demoras'">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <button type="submit" class="btn btn-light">Enviar</button>
+          </form>
+    </main>
 
     <footer>
         <h2>Pasteleria Ojo Dulce</h2>

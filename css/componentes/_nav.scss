@@ -46,3 +46,41 @@
         background-color: blueviolet;
     }
 }
+
+@media (max-width:800px){
+    .menu{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+    }
+}
+
+/* PRODUCTOS */
+.nav1{
+    @extend %row;
+    gap: 25px;
+    padding: 25px;
+    a{
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        ;
+        &:hover{
+            color: rgba(0, 0, 0, 0.726);
+        }
+    }
+}
+
+.a-esp{
+    background-color: rgba(0, 0, 0, 0.185);
+    padding: 5px;
+}
+
+@media (max-width:768px){
+    .nav1 {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+        gap: 25px;
+    }
+    
+}
