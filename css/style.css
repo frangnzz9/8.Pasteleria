@@ -1,4 +1,18 @@
 @charset "UTF-8";
+.sobre-nos, .productos, footer div, .nav1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto, .ubi, footer, .cajas, .cabecera {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .cabecera {
   background: linear-gradient(rgba(0, 0, 0, 0.8), #FFC5D4);
 }
@@ -27,38 +41,38 @@ img {
 }
 
 #m-1 {
-  background-color: rgba(255, 255, 0, 0.75);
+  background-color: #f9ded3;
 }
 #m-1:hover {
-  background-color: yellow;
+  background-color: rgba(249, 222, 211, 0.7607843137);
 }
 
 #m-2 {
-  background-color: rgba(0, 0, 255, 0.75);
+  background-color: #fdd1b6;
 }
 #m-2:hover {
-  background-color: blue;
+  background-color: rgba(253, 209, 182, 0.768627451);
 }
 
 #m-3 {
-  background-color: rgba(255, 0, 0, 0.75);
+  background-color: #fab4b6;
 }
 #m-3:hover {
-  background-color: red;
+  background-color: rgba(250, 180, 182, 0.7529411765);
 }
 
 #m-4 {
-  background-color: rgba(0, 128, 0, 0.75);
+  background-color: #c7b6be;
 }
 #m-4:hover {
-  background-color: green;
+  background-color: rgba(199, 182, 190, 0.6901960784);
 }
 
 #m-5 {
-  background-color: rgba(137, 43, 226, 0.75);
+  background-color: #89abb4;
 }
 #m-5:hover {
-  background-color: blueviolet;
+  background-color: rgba(137, 171, 180, 0.7725490196);
 }
 
 @media (max-width: 800px) {
@@ -165,20 +179,6 @@ footer div a:hover {
     width: 70%;
   }
 }
-.nav1, footer div, .productos, .sobre-nos {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.cabecera, .cajas, footer, .ubi, .contacto {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 * {
   padding: 0px;
   margin: 0px;

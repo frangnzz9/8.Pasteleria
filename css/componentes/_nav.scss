@@ -17,33 +17,33 @@
 }
 
 #m-1{
-    background-color: rgba(255, 255, 0,0.75);
+    background-color: nth($clrs, 1 );
     &:hover{
-        background-color: yellow;
+        background-color: nth($clrs2 , 1 );
     }
 }
 #m-2{
-    background-color: rgba(0, 0, 255, 0.75);
+    background-color: nth($clrs, 2 );
     &:hover{
-        background-color: blue;
+        background-color: nth($clrs2, 2);
     }
 }
 #m-3{
-    background-color: rgba(255, 0, 0, 0.75);
+    background-color: nth($clrs, 3 );
     &:hover{
-        background-color: red;
+        background-color: nth($clrs2, 3);
     }
 }
 #m-4{
-    background-color: rgba(0, 128, 0, 0.75);
+    background-color: nth($clrs, 4 );
     &:hover{
-        background-color:green;
+        background-color: nth($clrs2, 4);
     }
 }
 #m-5{
-    background-color: rgba(137, 43, 226, 0.75);
+    background-color: nth($clrs, 5 );
     &:hover{
-        background-color: blueviolet;
+        background-color: nth($clrs2, 5);
     }
 }
 

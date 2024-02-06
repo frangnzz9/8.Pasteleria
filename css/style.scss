@@ -1,9 +1,10 @@
+@import './base/extend';
+@import './base/listas';
+
 @import './componentes/header';
 @import './componentes/nav';
 @import './componentes/footer';
 @import './componentes/main';
-
-@import './base/extend';
 
 *{
     padding: 0px;
